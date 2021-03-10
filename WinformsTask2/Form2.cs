@@ -218,6 +218,7 @@ namespace WinformsTask2
                 if (_worker == null)
                 {
                     _form.Workers.Add(worker);
+                    _worker = worker;
                 }
                 else
                 {

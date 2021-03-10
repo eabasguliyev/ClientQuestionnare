@@ -63,6 +63,7 @@ namespace WinformsTask2
             this.GenderRequiredLbl = new System.Windows.Forms.Label();
             this.EmailRequiredLbl = new System.Windows.Forms.Label();
             this.PhoneNumberRequiredLbl = new System.Windows.Forms.Label();
+            this.FormLbl = new System.Windows.Forms.Label();
             this.DraggablePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LeftArrowBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseBtn)).BeginInit();
@@ -73,6 +74,7 @@ namespace WinformsTask2
             // DraggablePanel
             // 
             this.DraggablePanel.BackColor = System.Drawing.Color.LightBlue;
+            this.DraggablePanel.Controls.Add(this.FormLbl);
             this.DraggablePanel.Controls.Add(this.LeftArrowBtn);
             this.DraggablePanel.Controls.Add(this.CloseBtn);
             this.DraggablePanel.Dock = System.Windows.Forms.DockStyle.Top;
@@ -433,6 +435,16 @@ namespace WinformsTask2
             this.PhoneNumberRequiredLbl.TabIndex = 28;
             this.PhoneNumberRequiredLbl.Text = "*";
             // 
+            // FormLbl
+            // 
+            this.FormLbl.AutoSize = true;
+            this.FormLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FormLbl.Location = new System.Drawing.Point(43, 7);
+            this.FormLbl.Name = "FormLbl";
+            this.FormLbl.Size = new System.Drawing.Size(109, 20);
+            this.FormLbl.TabIndex = 29;
+            this.FormLbl.Text = "Questionnare";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -468,6 +480,7 @@ namespace WinformsTask2
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.DraggablePanel.ResumeLayout(false);
+            this.DraggablePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LeftArrowBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseBtn)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -514,5 +527,6 @@ namespace WinformsTask2
         private System.Windows.Forms.Label GenderRequiredLbl;
         private System.Windows.Forms.Label EmailRequiredLbl;
         private System.Windows.Forms.Label PhoneNumberRequiredLbl;
+        private System.Windows.Forms.Label FormLbl;
     }
 }

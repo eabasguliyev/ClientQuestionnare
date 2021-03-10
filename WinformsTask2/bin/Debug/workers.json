@@ -1,0 +1,48 @@
+﻿[
+  {
+    "Email": "elgun.abasquliyev@gmail.com",
+    "PhoneNumber": "(+994) 55-9209045",
+    "Title": "C# Dev",
+    "Department": "Programmers",
+    "CompanyName": "Step",
+    "Industry": "IT",
+    "Languages": [
+      "English",
+      "Turkish"
+    ],
+    "FirstName": "Elgun",
+    "LastName": "Abasquliyev",
+    "Gender": "Male"
+  },
+  {
+    "Email": "abil.yagublu@gmail.com",
+    "PhoneNumber": "(+994) 55-9209045",
+    "Title": "System Administrator",
+    "Department": "IT",
+    "CompanyName": "Azercell",
+    "Industry": "IT",
+    "Languages": [
+      "English",
+      "Turkish"
+    ],
+    "FirstName": "Abil",
+    "LastName": "Yagublu",
+    "Gender": "Male"
+  },
+  {
+    "Email": "resul.osmanli@gmail.com",
+    "PhoneNumber": "(+994) 50-5678495",
+    "Title": ".Net Dev",
+    "Department": "Programmer",
+    "CompanyName": "Step",
+    "Industry": "IT",
+    "Languages": [
+      "English",
+      "Russian",
+      "Turkish"
+    ],
+    "FirstName": "Resul",
+    "LastName": "Osmanli",
+    "Gender": "Male"
+  }
+]
