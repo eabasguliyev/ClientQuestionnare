@@ -34,6 +34,7 @@ namespace WinformsTask2
             this.LoadBtn = new System.Windows.Forms.Button();
             this.WorkersComboBox = new System.Windows.Forms.ComboBox();
             this.CreateBtn = new System.Windows.Forms.Button();
+            this.FormLbl = new System.Windows.Forms.Label();
             this.DraggablePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CloseBtn)).BeginInit();
             this.SuspendLayout();
@@ -41,6 +42,7 @@ namespace WinformsTask2
             // DraggablePanel
             // 
             this.DraggablePanel.BackColor = System.Drawing.Color.LightBlue;
+            this.DraggablePanel.Controls.Add(this.FormLbl);
             this.DraggablePanel.Controls.Add(this.CloseBtn);
             this.DraggablePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.DraggablePanel.Location = new System.Drawing.Point(0, 0);
@@ -111,6 +113,16 @@ namespace WinformsTask2
             this.CreateBtn.MouseEnter += new System.EventHandler(this.CreateBtn_MouseEnter);
             this.CreateBtn.MouseLeave += new System.EventHandler(this.CreateBtn_MouseLeave);
             // 
+            // FormLbl
+            // 
+            this.FormLbl.AutoSize = true;
+            this.FormLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FormLbl.Location = new System.Drawing.Point(4, 7);
+            this.FormLbl.Name = "FormLbl";
+            this.FormLbl.Size = new System.Drawing.Size(166, 20);
+            this.FormLbl.TabIndex = 30;
+            this.FormLbl.Text = "Select/Create worker";
+            // 
             // Form1
             // 
             this.AcceptButton = this.LoadBtn;
@@ -127,6 +139,7 @@ namespace WinformsTask2
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.DraggablePanel.ResumeLayout(false);
+            this.DraggablePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CloseBtn)).EndInit();
             this.ResumeLayout(false);
 
@@ -139,6 +152,7 @@ namespace WinformsTask2
         private System.Windows.Forms.Button LoadBtn;
         private System.Windows.Forms.ComboBox WorkersComboBox;
         private System.Windows.Forms.Button CreateBtn;
+        private System.Windows.Forms.Label FormLbl;
     }
 }
 

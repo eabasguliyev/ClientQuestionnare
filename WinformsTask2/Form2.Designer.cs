@@ -441,9 +441,9 @@ namespace WinformsTask2
             this.FormLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormLbl.Location = new System.Drawing.Point(43, 7);
             this.FormLbl.Name = "FormLbl";
-            this.FormLbl.Size = new System.Drawing.Size(109, 20);
+            this.FormLbl.Size = new System.Drawing.Size(208, 20);
             this.FormLbl.TabIndex = 29;
-            this.FormLbl.Text = "Questionnare";
+            this.FormLbl.Text = "Questionnare: Fill the form";
             // 
             // Form2
             // 
